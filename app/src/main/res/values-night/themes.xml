@@ -12,4 +12,16 @@
 
     <style name="Theme.Purple" parent="Theme.Purple.Night" />
 
+    <style name="Theme.Orange.Night" parent="Theme.Base">
+        <item name="colorPrimary">@color/orange_200</item>
+        <item name="colorPrimaryVariant">@color/orange_800</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.Orange" parent="Theme.Orange.Night" />
+
 </resources>
