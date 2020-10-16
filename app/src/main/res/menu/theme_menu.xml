@@ -5,7 +5,7 @@
     <item android:id="@+id/action_title"
         android:title="Change theme"
         android:icon="@drawable/ic_gear"
-        android:iconTint="?colorControlNormal"
+        app:iconTint="?colorControlNormal"
         app:showAsAction="always"
         />
 

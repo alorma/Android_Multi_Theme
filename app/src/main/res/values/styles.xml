@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary" />
+
+    <style name="Widget.App.Toolbar.Orange">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Toolbar.Orange</item>
+    </style>
+
+    <style name="Widget.App.Toolbar.Green">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Toolbar.Green</item>
+    </style>
+
+</resources>

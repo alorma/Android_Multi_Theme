@@ -6,22 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.alorma.multithemes.ShapeableMaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
-        app:cardForegroundColor="@color/color_primary_8" />
+        app:cardForegroundColor="@color/color_primary_8"
+        app:cardElevation="2dp" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="190dp"
         android:layout_height="190dp"
         android:layout_gravity="center"
-        app:cardForegroundColor="@color/color_primary_50" />
+        app:cardForegroundColor="@color/color_primary_50"
+        app:cardElevation="4dp"/>
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
+        app:cardElevation="8dp"
         app:cardForegroundColor="@color/color_primary" />
 
 </FrameLayout>

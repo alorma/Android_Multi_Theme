@@ -1,33 +1,26 @@
 <resources>
 
-    <style name="Theme.Base" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:statusBarColor">?colorPrimarySurface</item>
+        <item name="appBarLayoutStyle">@style/Widget.App.AppBarLayout</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+        <item name="colorControlNormal">?colorOnPrimary</item>
     </style>
 
-    <style name="Theme.Purple.Base" parent="Theme.Base" >
-        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium.Green</item>
-    </style>
-
-    <style name="Theme.Orange.Base" parent="Theme.Base" >
-        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium.Orange</item>
-    </style>
-
-    <style name="Theme.Green.Base" parent="Theme.Base" >
+    <style name="Theme.Purple.Base" parent="Theme.Base">
+        <item name="cornerFamily">rounded</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium.Purple</item>
     </style>
 
-    <style name="ShapeAppearance.App.Medium.Purple" parent="ShapeAppearance.MaterialComponents.MediumComponent">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">12dp</item>
+    <style name="Theme.Orange.Base" parent="Theme.Base">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.Orange</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium.Orange</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar.Orange</item>
     </style>
 
-    <style name="ShapeAppearance.App.Medium.Orange" parent="ShapeAppearance.MaterialComponents.MediumComponent">
-        <item name="cornerFamily">cut</item>
-        <item name="cornerSize">12dp</item>
-    </style>
-
-    <style name="ShapeAppearance.App.Medium.Green" parent="ShapeAppearance.MaterialComponents.MediumComponent">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">40dp</item>
+    <style name="Theme.Green.Base" parent="Theme.Base">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.Green</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium.Green</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar.Green</item>
     </style>
 </resources>
