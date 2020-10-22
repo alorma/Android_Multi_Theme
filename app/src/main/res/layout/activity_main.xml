@@ -18,24 +18,24 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
-        app:cardForegroundColor="@color/color_primary_8"
         app:cardElevation="2dp" />
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
         android:layout_width="190dp"
         android:layout_height="190dp"
         android:layout_gravity="center"
-        app:cardForegroundColor="@color/color_primary_50"
         app:cardElevation="4dp"/>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card3"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
-        app:cardElevation="8dp"
-        app:cardForegroundColor="@color/color_primary" />
+        app:cardElevation="8dp" />
 
 </FrameLayout>
